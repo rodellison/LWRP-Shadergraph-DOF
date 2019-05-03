@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ocean
+  m_Shader: {fileID: 4800000, guid: 80902fc1169da654491b7c7caff5bb0d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3100
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CameraDepthTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CameraOpaqueTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_24F4BB82_Texture:
+        m_Texture: {fileID: 2800000, guid: 879cc6503aa3b504ca6e088cbdde86be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_2DAF69B5_Texture:
+        m_Texture: {fileID: 2800000, guid: 8cbc3a869f696c44cb64c58b838093e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_BD47B1BB_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _foammask:
+        m_Texture: {fileID: 2800000, guid: b1a0a2b9b64a2e94c8c724c71ff16125, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _foamtexture:
+        m_Texture: {fileID: 2800000, guid: 4521545e68e36c94b969bb17df5ef88f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_11C8BE5D: 0.28
+    - Vector1_137DC7ED: 0
+    - Vector1_1AE1D4CB: -2.87
+    - Vector1_1C76134F: 0.39
+    - Vector1_1E58CA3C: 0.3
+    - Vector1_1FBBD606: 0.4
+    - Vector1_2067D572: 0.6
+    - Vector1_213C6A32: 4.58
+    - Vector1_221E0A39: 0.97
+    - Vector1_24DAD7F: 0.1
+    - Vector1_256E8FBA: 4.92
+    - Vector1_3170A691: 0.663
+    - Vector1_361B5521: 5.2
+    - Vector1_39047021: 10.2
+    - Vector1_39222957: 0.76
+    - Vector1_3B6C6CA7: 0.04
+    - Vector1_3D495A1F: 0.9
+    - Vector1_40E2F0ED: 0.5
+    - Vector1_4735D5E2: 0.42
+    - Vector1_489F9EEF: 6.84
+    - Vector1_4B305923: 3.37
+    - Vector1_4F92311A: 1
+    - Vector1_503C980E: 0.51
+    - Vector1_51075417: 0.63
+    - Vector1_5190E028: 0.37
+    - Vector1_5232C9B8: 2.76
+    - Vector1_5685904E: 1.464
+    - Vector1_5721F4C2: 0.63
+    - Vector1_5D17CBA2: 0.17
+    - Vector1_5EB91206: 0.56
+    - Vector1_608CA392: 0.52
+    - Vector1_632F7C2E: 1.54
+    - Vector1_6D0F772: 0.476
+    - Vector1_6DA97D7: 32.22
+    - Vector1_6EF52C6: 1.98
+    - Vector1_722CB011: 0.139
+    - Vector1_72D9B0C5: 1.5
+    - Vector1_72F0D5FC: 0.013
+    - Vector1_730BBE62: 0.799
+    - Vector1_770B5A60: 1.67
+    - Vector1_7FB5584F: 0.547
+    - Vector1_7FD4B9D0: 1
+    - Vector1_8403193C: 1.01
+    - Vector1_8BF7F1BF: 1
+    - Vector1_8D2F509D: 1.64
+    - Vector1_905986FC: 0.531
+    - Vector1_95BDBEC1: 6.34
+    - Vector1_961065ED: 0.028
+    - Vector1_986CF1D2: 14
+    - Vector1_9872C2E5: 8.65
+    - Vector1_9E5F763C: 0.178
+    - Vector1_A04E5E21: 1.67
+    - Vector1_A38692A6: 0.6
+    - Vector1_A6C44B0B: 0.57
+    - Vector1_AD7DFD35: -2.53
+    - Vector1_B42C4654: 0.97
+    - Vector1_B4A117B7: 0.36
+    - Vector1_B9797993: 0.41
+    - Vector1_B98A4C60: 0.1
+    - Vector1_BC8BA90A: 2.12
+    - Vector1_BD72615D: 2.46
+    - Vector1_BF07B4C4: 3.16
+    - Vector1_C34462DE: 0.79
+    - Vector1_C6051FE9: 1.67
+    - Vector1_C800E0A4: 0.48
+    - Vector1_CC89A15C: 1
+    - Vector1_D42CC29E: 2
+    - Vector1_E58F6327: 0.63
+    - Vector1_F0FA9185: 6
+    - Vector1_F1BE6F9F: 0
+    - Vector1_F2029A8E: 1
+    - Vector1_F44D25A0: 0.411
+    - Vector1_F4A73BA: 0.77
+    - Vector1_F68B8AAF: 0.5
+    - Vector1_F8EFDF11: 17.82
+    - Vector1_F976D8BD: 0.468
+    - Vector1_F9DF03AF: 35
+    - Vector1_FA3225CB: 4.99
+    - Vector1_FABC47E4: 0.5
+    - Vector1_FF940B40: 1
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _UVSec: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    - _alpha: 0.87
+    - _alphaclip: 0.1
+    - _bigwaveheight: 0.4
+    - _bigwaveheigth: 0.1
+    - _bigwavepower: 0.5
+    - _bigwaverotatex: 0.187
+    - _bigwaverotatez: 0.48
+    - _bigwavescale: 0.75
+    - _bigwavespeed: 0.5
+    - _fardistancetwinklestrength: 35
+    - _foampower: 1
+    - _foamscale: 0
+    - _foamspeed: 0.2
+    - _foamtextureblend: 0.15
+    - _foamtexturescale: 0.41
+    - _fresnelpower: 0.75
+    - _frothblend: 0.7
+    - _frothfalloff: 0
+    - _frothflatness: 0.764
+    - _frothscalebig: 2
+    - _frothscalesmall: 12
+    - _frothspeed: 0.4
+    - _frothstep: 0.816
+    - _gradientscale: 2
+    - _mediumwavegradientscale: 4
+    - _mediumwaveheigth: 0.5
+    - _mediumwavepower: 0.4
+    - _mediumwaverotatex: 0.354
+    - _mediumwaverotatez: 0.364
+    - _mediumwavescale: 0.5
+    - _metallic: 0.65
+    - _occlusion: 0.1
+    - _refractionblend: 0.3
+    - _refractionscale: 1
+    - _refractionstrength: 1
+    - _smoothness: 0.35
+    - _surfaceintensity: 0.454
+    - _topcolorcontrast: 0.21
+    m_Colors:
+    - Color_120283E2: {r: 0.29369882, g: 0.35512602, b: 0.8301887, a: 1}
+    - Color_277E2D14: {r: 1, g: 1, b: 1, a: 1}
+    - Color_3974F997: {r: 0.14509788, g: 0.9490196, b: 1, a: 1}
+    - Color_3CACD0BA: {r: 0.21960783, g: 0.35294116, b: 0.50980395, a: 1}
+    - Color_936A8730: {r: 0.25663042, g: 0.6629149, b: 0.6886792, a: 0.60784316}
+    - Color_ACACFC30: {r: 0.6127626, g: 0.92731404, b: 0.9622641, a: 1}
+    - Color_CD356221: {r: 0.16091135, g: 0.1726593, b: 0.3018868, a: 0}
+    - Color_D70B9788: {r: 0.48460305, g: 0.8490566, b: 0.75066197, a: 0.7058824}
+    - Color_E63B4CEF: {r: 0.03470988, g: 0.5343531, b: 0.5660378, a: 0.54509807}
+    - Vector2_1000B2F1: {r: 0.1, g: 1, b: 0, a: 0}
+    - Vector2_113ECD47: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - Vector2_7922229F: {r: 0.38, g: 1, b: 0, a: 0}
+    - Vector2_B86025B3: {r: 0.5, g: 1, b: 0, a: 0}
+    - Vector2_BE5D86FE: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - Vector2_D494475D: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - Vector2_FA95DCD5: {r: 0.59, g: 0.55, b: 0, a: 0}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _bottomcolor: {r: 0.004449981, g: 0.1346, b: 0.18867922, a: 1}
+    - _bottomdarkcolor: {r: 0.071911715, g: 0.1509434, b: 0.11263857, a: 1}
+    - _bottomlightcolor: {r: 0.31612673, g: 0.6037736, b: 0.41348416, a: 1}
+    - _foamtexturespeed: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _gradientminmax: {r: 0.25, g: 0.75, b: 0, a: 0}
+    - _gradientspeed: {r: 0.15, g: -0.25, b: 0, a: 0}
+    - _mediumwavegradientspeed: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _tempcolor: {r: 0.12967247, g: 0.49874493, b: 0.5849056, a: 1}
+    - _topcolor: {r: 0.04218582, g: 0.11320752, b: 0.094944805, a: 1}
+    - _topdarkcolor: {r: 0.42021182, g: 0.5177007, b: 0.6698113, a: 1}
+    - _toplightcolor: {r: 0.49056602, g: 0.242969, b: 0.34179968, a: 1}
