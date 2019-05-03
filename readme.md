@@ -10,8 +10,11 @@ A Unity3D Test project, experimenting with the default LWRP setup and playing ar
 This project utilizes a few free resources, attributed here:
 
 **Palm Tree models: from Turbo Squid** : https://www.turbosquid.com/3d-models/free-obj-mode-palm-trees/490485
+
 **Ferns**: from the built in LWRP demo
+
 **Sand Texture**:  https://www.deviantart.com/marlborolt/art/Sand-Ripples-439027940
+
 **Skybox**: https://cgi.tutsplus.com/articles/freebie-8-awesome-ocean-hdris--cg-5684
 
 ![Beach1](LWRP-Beach1.JPG "Beach view 1")
