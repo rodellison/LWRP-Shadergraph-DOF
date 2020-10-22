@@ -192,11 +192,11 @@ Material:
     - _alphaclip: 0.1
     - _bigwaveheight: 0.4
     - _bigwaveheigth: 0.1
-    - _bigwavepower: 0.5
+    - _bigwavepower: 0.47
     - _bigwaverotatex: 0.187
     - _bigwaverotatez: 0.48
-    - _bigwavescale: 0.75
-    - _bigwavespeed: 0.5
+    - _bigwavescale: 0.61
+    - _bigwavespeed: 0.88
     - _fardistancetwinklestrength: 35
     - _foampower: 1
     - _foamscale: 0
@@ -213,8 +213,8 @@ Material:
     - _frothstep: 0.816
     - _gradientscale: 2
     - _mediumwavegradientscale: 4
-    - _mediumwaveheigth: 0.5
-    - _mediumwavepower: 0.4
+    - _mediumwaveheigth: 0.56
+    - _mediumwavepower: 0.34
     - _mediumwaverotatex: 0.354
     - _mediumwaverotatez: 0.364
     - _mediumwavescale: 0.5
